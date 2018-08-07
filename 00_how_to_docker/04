@@ -1,0 +1,7 @@
+docker pull hello-world
+
+# Using default tag: latest
+# latest: Pulling from library/hello-world
+# 9db2ca6ccae0: Pull complete
+# Digest: sha256:4b8ff392a12ed9ea17784bd3c9a8b1fa3299cac44aca35a85c90c5e3c7afacdc
+# Status: Downloaded newer image for hello-world:latest

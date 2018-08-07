@@ -1,0 +1,24 @@
+docker run -d --name roach-warden -p 8081:80 --link spawning-pool:db phpmyadmin/phpmyadmin
+
+# Unable to find image 'phpmyadmin/phpmyadmin:latest' locally
+# latest: Pulling from phpmyadmin/phpmyadmin
+# ff3a5c916c92: Pull complete
+# b9833b0afc68: Pull complete
+# 1253fa17a201: Pull complete
+# 01ce3cad229c: Pull complete
+# 3297115ec239: Pull complete
+# 0a9fef0dc4b5: Pull complete
+# 150955d70ce4: Pull complete
+# 4c28392cdace: Pull complete
+# 3f06b93505df: Pull complete
+# ac0808c5c66c: Pull complete
+# 5694a182d3fc: Pull complete
+# 47e6f5239ac9: Pull complete
+# c1b097e5736c: Pull complete
+# 97c4177852e1: Pull complete
+# 3cae62584229: Pull complete
+# e58c55feff22: Pull complete
+# b5d4253f78f5: Pull complete
+# Digest: sha256:b003fa5555dcb0a305d26aec3935b3a1127179ea8ad9d57685df4e4eab912ca8
+# Status: Downloaded newer image for phpmyadmin/phpmyadmin:latest
+# 9b7bc842f0738a8056e0c76e63ba5d75830fa479c9741d94de3dbbd6228da3b5

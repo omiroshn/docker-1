@@ -1,0 +1,18 @@
+docker run -d --name spawning-pool --restart=on-failure:10 -e MYSQL_ROOT_PASSWORD=Kerrigan -e MYSQL_DATABASE=zerglings -v hatchery:/var/lib/mysql mysql --default-authentication-plugin=mysql_native_password
+# Unable to find image 'mysql:latest' locally
+# latest: Pulling from library/mysql
+# be8881be8156: Already exists
+# c3995dabd1d7: Pull complete
+# 9931fdda3586: Pull complete
+# bb1b6b6eff6a: Pull complete
+# a65f125fa718: Pull complete
+# 2d9f8dd09be2: Pull complete
+# 37b912cb2afe: Pull complete
+# 54242fcd8eaa: Pull complete
+# 0a9d4d211511: Pull complete
+# 270ae5bd02c2: Pull complete
+# 9b55b8e72e70: Pull complete
+# 68083f7985cd: Pull complete
+# Digest: sha256:e42cbb3afa80aa210aa1245b930619c12641a8de57a486e6f1b11858307bd378
+# Status: Downloaded newer image for mysql:latest
+# b071d4e31d77b3ac0c7c7f70b94fea91d986ed0fb77988e8ad08d6f9d0336f65

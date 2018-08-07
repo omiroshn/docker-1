@@ -1,0 +1,13 @@
+docker inspect -f "{{.Config.Env}}" spawning-pool
+# [MYSQL_ROOT_PASSWORD=Kerrigan MYSQL_DATABASE=zerglings PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin GOSU_VERSION=1.7 MYSQL_MAJOR=8.0 MYSQL_VERSION=8.0.12-1debian9]
+
+# or 
+#    docker exec spawning-pool env
+# PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+# HOSTNAME=c7d50b510f01
+# MYSQL_ROOT_PASSWORD=Kerrigan
+# MYSQL_DATABASE=zerglings
+# GOSU_VERSION=1.7
+# MYSQL_MAJOR=8.0
+# MYSQL_VERSION=8.0.12-1debian9
+# HOME=/root

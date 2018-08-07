@@ -1,0 +1,17 @@
+# docker run -ti --rm debian
+apt-get update
+apt-get upgrade -y
+apt-get install -y build-essential git
+apt-get install -y vim
+
+#  root@6118b3f6c543:/# gcc main.c
+#  root@6118b3f6c543:/# ./a.out
+#  Hello World!
+
+#  root@6118b3f6c543:/# git clone https://github.com/omiroshn/filler
+#  Cloning into 'filler'...
+#  remote: Counting objects: 636, done.
+#  remote: Compressing objects: 100% (310/310), done.
+#  remote: Total 636 (delta 283), reused 599 (delta 251), pack-reused 0
+#  Receiving objects: 100% (636/636), 4.18 MiB | 982.00 KiB/s, done.
+#  Resolving deltas: 100% (283/283), done.

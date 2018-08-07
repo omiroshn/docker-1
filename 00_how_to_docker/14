@@ -1,0 +1,27 @@
+docker run -d --name lair -p 8080:80 --link spawning-pool:mysql wordpress
+
+# Unable to find image 'wordpress:latest' locally
+# latest: Pulling from library/wordpress
+# be8881be8156: Already exists
+# 69a25f7e4930: Pull complete
+# 65632e89c5f4: Pull complete
+# cd75fa32da8f: Pull complete
+# 15bc7736db11: Pull complete
+# b2c40cef4807: Pull complete
+# f3507e55e5eb: Pull complete
+# e6006cdfa16b: Pull complete
+# a3ed406e3c88: Pull complete
+# 745f1366071d: Pull complete
+# bdfcada64ad8: Pull complete
+# 86f2b695cc77: Pull complete
+# 5f634a03970a: Pull complete
+# a329a7ebde19: Pull complete
+# fb3d2649f534: Pull complete
+# 8fa928654124: Pull complete
+# a925e4a45888: Pull complete
+# b5e827c13dc3: Pull complete
+# 61b17faecc30: Pull complete
+# 4cbb58b1ec3d: Pull complete
+# Digest: sha256:fd516f57ae07b29343d9c7fee9d1e938c182136c0be88d30f26737594477d4f2
+# Status: Downloaded newer image for wordpress:latest
+# 39a8a2938509ac2907009f406c7f9e729fcd3868aaeab39774a0b6fa4a7e78e7

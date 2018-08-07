@@ -1,6 +1,8 @@
 eval "$(docker-machine env Char)"
-# docker ps
-# CONTAINER ID IMAGE COMMAND CREATED STATUS PORTS NAMES
+
+#docker-machine ls
+# NAME   ACTIVE   DRIVER       STATE     URL                         SWARM   DOCKER        ERRORS
+# Char   *        virtualbox   Running   tcp://192.168.99.100:2376           v18.06.0-ce
 
 # docker-machine env Char
 #  export DOCKER_TLS_VERIFY="1"

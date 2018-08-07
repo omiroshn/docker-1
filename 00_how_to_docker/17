@@ -1,0 +1,7 @@
+docker ps
+
+# CONTAINER ID        IMAGE                   COMMAND                  CREATED             STATUS              PORTS                            NAMES
+# 9b7bc842f073        phpmyadmin/phpmyadmin   "/run.sh supervisord…"   5 minutes ago       Up 5 minutes        9000/tcp, 0.0.0.0:8081->80/tcp   roach-warden
+# 39a8a2938509        wordpress               "docker-entrypoint.s…"   About an hour ago   Up About an hour    0.0.0.0:8080->80/tcp             lair
+# c7d50b510f01        mysql                   "docker-entrypoint.s…"   About an hour ago   Up About an hour    3306/tcp                         spawning-pool
+# 07cad6fa6580        nginx                   "nginx -g 'daemon of…"   6 hours ago         Up 6 hours          0.0.0.0:5000->80/tcp             overlord
