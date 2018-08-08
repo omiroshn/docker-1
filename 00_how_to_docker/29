@@ -1,0 +1,4 @@
+docker service ps marines
+# ID                  NAME                IMAGE                             NODE                DESIRED STATE       CURRENT STATE            ERROR               PORTS
+# 9iv0st6i4lgp        engineering-bay.1   42school/engineering-bay:latest   Aiur                Running             Running 32 minutes ago
+# 2yezcy66618o        engineering-bay.2   42school/engineering-bay:latest   Char                Running             Running 32 minutes ago

@@ -1,0 +1,4 @@
+docker service scale marines=20
+# marines scaled to 20
+# overall progress: 20 out of 20 tasks
+# verify: Service converged

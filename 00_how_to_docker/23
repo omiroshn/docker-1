@@ -1,0 +1,2 @@
+docker network create --driver overlay overmind
+# 6ymzpaui7rhlptlk6kfkcv6v1

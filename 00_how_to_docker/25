@@ -1,0 +1,3 @@
+docker service ls
+# ID                  NAME                MODE                REPLICAS            IMAGE               PORTS
+# qvqdn43zxciy        orbital-command     replicated          1/1                 rabbitmq:latest

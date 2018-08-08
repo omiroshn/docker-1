@@ -1,0 +1,4 @@
+docker service rm  $(docker service ls -q)
+# xetg5mph2bzi
+# dnujprmt95zc
+# qvqdn43zxciy

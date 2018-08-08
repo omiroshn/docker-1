@@ -1,0 +1,4 @@
+docker-machine rm -y Aiur
+# About to remove Aiur
+# WARNING: This action will delete both local reference and remote instance.
+# Successfully removed Aiur

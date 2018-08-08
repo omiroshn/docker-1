@@ -1,0 +1,10 @@
+docker rm --force $(docker ps -a -q)
+# 8352e5ee8f3e
+# 9e7f5485e655
+# 40be99fe9113
+# 69f4fc86540a
+# c8b950c87e18
+# fd6124bf5a0f
+# 20b6560ee1fe
+# ae587ec1cab3
+# a3a7a8730e7d
