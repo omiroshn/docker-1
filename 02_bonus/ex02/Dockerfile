@@ -1,7 +1,5 @@
 FROM debian
 
-MAINTAINER vbrazhni <vbrazhni@student.unit.ua>
-
 RUN apt-get update && apt-get upgrade -y && apt-get install -y wget default-jre
 
 WORKDIR minecraft
